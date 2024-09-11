@@ -1,3 +1,22 @@
+/* BODY
+-------------------------------------------- */
+
+.has-yellow-color {
+	color: #FFD700;
+}
+
+.has-coral-color {
+	color: #FF6F61;
+}
+
+.has-navy-color {
+	color: #1B263B;
+}
+
+.has-pink-color{
+	color: #FFCCCB;
+}
+
 .vlt-custom--8131 {
 	bottom: -250px;
 	left: -200px;
@@ -64,17 +83,7 @@
 	height: 550px;
 }
 
-.has-yellow-color {
-	color: #FFD700;
-}
 
-.has-coral-color {
-	color: #FF6F61;
-}
-
-.has-navy-color {
-	color: #1B263B;
-}
 
 .vlt-fullpage-slider-numbers
 {
@@ -136,6 +145,102 @@
 
     background-color: #1B263B;
 }
+
+/* SKILL
+-------------------------------------------- */
+.skill-section {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-card {
+    background-color: #F4F4F9;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.skill-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ABOUT
+-------------------------------------------- */
+
+.about-section{
+	text-align: left;
+    margin-bottom: 20px;
+	font-weight: lighter;
+}
+
+.vlt-display-2{
+	font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+.vlt-display-3d{
+	/* font-family: 'Pacifico', cursive; Font bergaya kaligrafi */
+    color: #FF6F61; /* Warna pink pastel */
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    text-shadow: 2px 2px 0px #ffcccc, /* Shadow layer 1 */
+                 4px 4px 0px #FFD700, /* Shadow layer 2 */
+                 6px 6px 0px #ffdddd, /* Shadow layer 3 */
+                 8px 8px 0px #FFCCCB, /* Shadow layer 4 */
+                 10px 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.vlt-display-3d-2{
+	/* font-family: 'Pacifico', cursive; Font bergaya kaligrafi */
+    color: #1B263B; /* Warna pink pastel */
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    text-shadow: 2px 2px 0px #F4F4F9, /* Shadow layer 1 */
+                 4px 4px 0px #FFCCCB, /* Shadow layer 2 */
+                 10px 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .skill-card {
+        width: 80px;
+        padding: 10px;
+    }
+
+    .skill-card p {
+        font-size: 12px;
+    }
+}
+
+
 
 /* FOOTER COPYRIGHT
 -------------------------------------------- */
